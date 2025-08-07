@@ -1,0 +1,115 @@
+.experience {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.experience-timeline {
+  margin-top: 3rem;
+}
+
+.experience-item {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header {
+  margin-bottom: 1.5rem;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0.5rem 0;
+}
+
+.position-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 0.5rem 0;
+}
+
+.location {
+  font-size: 1rem;
+  color: #666666;
+  margin: 0 0 0.25rem 0;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: #888888;
+  margin: 0;
+  font-weight: 500;
+}
+
+.description-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.description-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.description-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #000000;
+  font-weight: bold;
+}
+
+.description-list li:last-child {
+  margin-bottom: 0;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: #f3f4f6;
+  color: #333333;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 3rem 0;
+  }
+  
+  .experience-item {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .company-name {
+    font-size: 1.25rem;
+  }
+  
+  .position-title {
+    font-size: 1.1rem;
+  }
+}
