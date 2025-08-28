@@ -1,6 +1,6 @@
 .education {
   padding: 5rem 0;
-  background: white;
+  background: #0a0a0a;
 }
 
 .education-grid {
@@ -11,16 +11,16 @@
 }
 
 .education-item {
-  background: #f8f9fa;
+  background: #121212;
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #1f1f1f;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .education-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .education-header {
@@ -30,39 +30,39 @@
 .institution-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   margin: 0 0 0.5rem 0;
 }
 
 .degree-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333333;
+  color: #cfcfcf;
   margin: 0 0 0.5rem 0;
 }
 
 .education-location {
   font-size: 1rem;
-  color: #666666;
+  color: #a3a3a3;
   margin: 0 0 0.25rem 0;
 }
 
 .education-duration {
   font-size: 0.9rem;
-  color: #888888;
+  color: #b5b5b5;
   margin: 0;
   font-weight: 500;
 }
 
 .courses-section {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #1f1f1f;
   padding-top: 1.5rem;
 }
 
 .courses-title {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   margin: 0 0 1rem 0;
 }
 
@@ -77,7 +77,7 @@
 
 .courses-list li {
   font-size: 0.9rem;
-  color: #333333;
+  color: #d1d1d1;
   padding: 0.25rem 0;
   position: relative;
   padding-left: 1rem;
@@ -87,7 +87,7 @@
   content: "•";
   position: absolute;
   left: 0;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
 }
 

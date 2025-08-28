@@ -1,7 +1,7 @@
 .contact-section {
   padding: 5rem 0;
-  background: #ffffff;
-  color: #000000;
+  background: #0a0a0a;
+  color: #e5e5e5;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -22,38 +22,40 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact-subtitle {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #666666;
+  color: #a3a3a3;
   max-width: 600px;
   margin: 0 auto;
 }
 
 .contact-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
   align-items: start;
+  justify-content: center;
+  justify-items: center;
 }
 
 /* Contact Form Styles */
 .contact-form-container {
-  background: #f8f8f8;
+  background: #121212;
   border-radius: 12px;
   padding: 2.5rem;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #1f1f1f;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .form-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact-form {
@@ -77,31 +79,31 @@
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  color: #333333;
+  color: #d1d1d1;
 }
 
 .form-input,
 .form-textarea {
   padding: 1rem;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #2a2a2a;
   border-radius: 8px;
-  background: #ffffff;
-  color: #000000;
+  background: #0a0a0a;
+  color: #e5e5e5;
   font-size: 1rem;
   transition: all 0.3s ease;
 }
 
 .form-input::placeholder,
 .form-textarea::placeholder {
-  color: #999999;
+  color: #777777;
 }
 
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #000000;
-  background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+  border-color: #e5e5e5;
+  background: #0f0f0f;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
 }
 
 .form-textarea {
@@ -111,8 +113,8 @@
 
 .submit-btn {
   padding: 1rem 2rem;
-  background: #000000;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -125,9 +127,9 @@
 }
 
 .submit-btn:hover {
-  background: #333333;
+  background: #e5e5e5;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
 }
 
 .submit-btn:active {
@@ -161,10 +163,10 @@
 .success-message {
   margin-top: 1rem;
   padding: 1rem;
-  background: #f0f8f0;
-  border: 1px solid #d4edda;
+  background: #0f1a0f;
+  border: 1px solid #1e3a1e;
   border-radius: 8px;
-  color: #155724;
+  color: #a7f3d0;
   font-weight: 500;
   animation: slideIn 0.3s ease;
 }
@@ -185,18 +187,22 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .info-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact-info-grid {
   display: grid;
   gap: 1.5rem;
+  grid-template-columns: 1fr;
 }
 
 .contact-card {
@@ -204,16 +210,16 @@
   align-items: center;
   gap: 1.5rem;
   padding: 1.5rem;
-  background: #f8f8f8;
+  background: #121212;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #1f1f1f;
   transition: all 0.3s ease;
 }
 
 .contact-card:hover {
   transform: translateY(-2px);
-  background: #f0f0f0;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  background: #151515;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 .card-icon {
@@ -242,25 +248,25 @@
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .card-link,
 .card-value {
-  color: #333333;
+  color: #d1d1d1;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .card-link:hover {
-  color: #000000;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 .card-description {
   font-size: 0.9rem;
-  color: #666666;
+  color: #a3a3a3;
   margin-top: 0.25rem;
 }
 
@@ -269,9 +275,10 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  background: #f8f8f8;
+  background: #121212;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #1f1f1f;
+  width: 100%;
 }
 
 .response-icon {
@@ -290,12 +297,12 @@
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .response-time p {
   font-size: 0.9rem;
-  color: #666666;
+  color: #a3a3a3;
   margin: 0;
 }
 

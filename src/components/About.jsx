@@ -9,21 +9,17 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a 23-year-old experienced Full Stack Developer with a knack for building products that make a difference. 
-              My expertise spans both frontend and backend technologies, enabling me to craft comprehensive solutions from the ground up.
+              Hi! I'm an 18-year-old, enthusiastic and hardworking developer currently pursuing a Bachelor of Computer Applications (BCA)
+              at St. Francis College (Autonomous), Bengaluru — SEP batch. I love turning ideas into clean, user-friendly web experiences.
             </p>
             <p>
-              Throughout my career, I've been deeply involved in the startup ecosystem. I've worked with various startups, 
-              embracing the fast-paced, innovative nature of these environments. This journey led me to found my own startup, 
-              where I gained firsthand experience in every aspect of product development and business operations.
+              My aspiration is to grow as a web developer and full‑stack engineer. I'm actively sharpening my frontend skills (React, modern
+              CSS) and backend fundamentals (Node.js/Express, REST APIs, databases), while building projects that strengthen my problem‑solving
+              and product thinking.
             </p>
             <p>
-              During my high school years, I excelled in software development, earning the prestigious title of DUX (top student) 
-              in this field. This early achievement laid the foundation for my passion and expertise in programming.
-            </p>
-            <p>
-              When I'm not immersed in code, you'll find me experimenting in the kitchen or bringing ideas to life with my 3D printer. 
-              I'm always creating, whether it's digital products or tangible objects.
+              I bring energy, curiosity, and consistency to everything I do. I enjoy learning fast, collaborating with teams, and shipping
+              features that make a real impact. I'm always open to exciting projects, internships, and opportunities to learn by building.
             </p>
           </div>
         </div>

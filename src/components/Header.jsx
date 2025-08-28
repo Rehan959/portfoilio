@@ -20,7 +20,8 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h2>Oskar Frantti Glen</h2>
+         
+          <h2>Raihanullah Shamsi</h2>
         </div>
         
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

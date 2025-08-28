@@ -4,43 +4,23 @@ import './Education.css'
 const Education = () => {
   const education = [
     {
-      institution: 'Deakin University',
-      location: 'Burwood, Victoria',
-      degree: 'Bachelor of Computer Science',
-      duration: 'July 2022 - Present',
+      institution: 'St. Francis College (Autonomous)',
+      location: 'Bengaluru, India',
+      degree: 'Bachelor of Computer Applications (BCA) — SEP Batch',
+      duration: 'July 2024 - Present',
       courses: [
-        'SIT232 Object-Oriented Development',
-        'SIT292 Linear Algebra for Data Analytics',
-        'SIT223 Professional Practice in I.T.',
-        'SIT221 Data Structures & Algorithms',
-        'SIT215 Computational Intelligence',
-        'SIT202 Computer Networks',
-        'SIT320 Advanced Algorithms',
-        'SIT306 IT Placement',
-        'SIT374 Project Design',
-        'SIT216 User Centered Design',
-        'SIT305 Mobile Application Development',
-        'SIT331 Full Stack Development: Secure Backend Services',
-        'SIT378 Team Project(B)',
-        'SIT315 Concurrent & Distributed Programming',
-        'SIT120 Introduction to Responsive Web Apps',
-        'SIT313 Full Stack Development: Secure Frontend Applications'
-      ]
-    },
-    {
-      institution: 'Deakin College',
-      location: 'Burwood, Victoria',
-      degree: 'Diploma of Information Technology',
-      duration: 'March 2021 - March 2022',
-      courses: [
-        'SIT102 Introduction to Programming',
-        'SIT103 Data and Information Management',
-        'SIT111 Computer Systems',
-        'SIT112 Data Science Concepts',
-        'SIT113 Cloud Computing',
-        'SIT123 Data Capture Technologies',
-        'SIT124 Exploring I.T.',
-        'SIT192 Discrete Mathematics'
+        'Programming Foundations with Python',
+        'Data Structures & Algorithms',
+        'Database Management Systems (SQL + ER Modeling)',
+        'Computer Networks & Internet Fundamentals',
+        'Operating Systems Concepts',
+        'Object-Oriented Programming (Java)',
+        'Web Technologies (HTML, CSS, JavaScript)',
+        'Software Engineering & Agile Practices',
+        'Discrete Mathematics',
+        'Linear Algebra & Calculus Basics',
+        'Professional Communication & Ethics',
+        'Elective: Introduction to Data Science'
       ]
     }
   ]

@@ -1,6 +1,6 @@
 .experience {
   padding: 5rem 0;
-  background: #f8f9fa;
+  background: #0a0a0a;
 }
 
 .experience-timeline {
@@ -8,12 +8,12 @@
 }
 
 .experience-item {
-  background: white;
+  background: #121212;
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border: 1px solid #1f1f1f;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -29,26 +29,26 @@
 .company-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   margin: 0 0 0.5rem 0;
 }
 
 .position-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333333;
+  color: #cfcfcf;
   margin: 0 0 0.5rem 0;
 }
 
 .location {
   font-size: 1rem;
-  color: #666666;
+  color: #a3a3a3;
   margin: 0 0 0.25rem 0;
 }
 
 .duration {
   font-size: 0.9rem;
-  color: #888888;
+  color: #b5b5b5;
   margin: 0;
   font-weight: 500;
 }
@@ -64,14 +64,14 @@
   padding-left: 1.5rem;
   margin-bottom: 0.75rem;
   line-height: 1.6;
-  color: #333333;
+  color: #d1d1d1;
 }
 
 .description-list li:before {
   content: "•";
   position: absolute;
   left: 0;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -86,13 +86,13 @@
 }
 
 .tech-tag {
-  background: #f3f4f6;
-  color: #333333;
+  background: #1a1a1a;
+  color: #e5e5e5;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
   font-size: 0.8rem;
   font-weight: 500;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #2a2a2a;
 }
 
 @media (max-width: 768px) {

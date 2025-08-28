@@ -1,6 +1,6 @@
 .skills {
   padding: 5rem 0;
-  background: white;
+  background: #0a0a0a;
 }
 
 .skills-grid {
@@ -11,17 +11,17 @@
 }
 
 .skill-category {
-  background: #f8f9fa;
+  background: #121212;
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #1f1f1f;
 }
 
 .category-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

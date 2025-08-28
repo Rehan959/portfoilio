@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <p className="footer-text">
-            Designed and built by Oskar Frantti Glen
+            Designed and built by Raihanullah Shamsi
           </p>
           <p className="footer-copyright">
             © 2025 All rights reserved

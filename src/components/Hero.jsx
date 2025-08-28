@@ -13,9 +13,9 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1 className="hero-title">Oskar Frantti Glen</h1>
+          <h1 className="hero-title">Raihanullah Shamsi</h1>
           <h2 className="hero-subtitle">Full Stack Web Developer</h2>
-          <p className="hero-location">📍 Melbourne, Australia 🇦🇺</p>
+          <p className="hero-location">📍 Bengaluru, India 🇮🇳</p>
           <p className="hero-tagline">
             Building Real Products For Real Clients, Not Just More Projects
           </p>
