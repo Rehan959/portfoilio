@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(),react()],
-  base: '/portfoilio/',
+  // Use relative base to work across different hosting setups (e.g., GitHub Pages, Netlify)
+  base: './',
 })

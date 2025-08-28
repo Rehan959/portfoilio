@@ -20,7 +20,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-         
+          {/* If you re-add the logo image, prefer import.meta.env.BASE_URL for subpath hosting */}
           <h2>Raihanullah Shamsi</h2>
         </div>
         
