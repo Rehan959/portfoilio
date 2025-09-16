@@ -9,19 +9,19 @@ const Skills = () => {
     },
     {
       title: 'Frameworks',
-      skills: ['ReactJS', 'NextJS', 'Tauri', 'React Native', 'ExpressJS', 'Flask', 'Django', 'ASP.Net']
+      skills: ['ReactJS', 'NextJS',  'React Native', 'ExpressJS']
     },
     {
       title: 'Backend',
-      skills: ['Node.js', '.NET', 'REST APIs', 'Microservices']
+      skills: ["Node.js","Express.js", "REST APIs", "WebSockets"]
     },
     {
       title: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'Elasticsearch']
+      skills: ['PostgreSQL', 'MongoDB', 'SQL','Vercel']
     },
     {
-      title: 'Practices',
-      skills: ['Microservices', 'Microfrontend', 'Agile', 'Git']
+      title: 'Tools',
+      skills: ['CI/CD', 'Git', 'Docker', 'Kubernetes']
     }
   ]
 
