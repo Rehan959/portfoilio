@@ -1,14 +1,18 @@
 import React from 'react'
 import './Hero.css'
+import ResumePDF from '../assets/resume.pdf'
 
-const Hero = () => {
+
+export const Hero = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
     }
   }
-
+ const openResume = () => {
+    window.open(ResumePDF, '_blank')
+  }
   return (
     <section className="hero">
       <div className="hero-container">
@@ -29,7 +33,7 @@ const Hero = () => {
             </button>
             <button 
               className="btn btn-secondary"
-              onClick={() => scrollToSection('about')}
+              onClick={openResume}
             >
               Resume
             </button>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -15,6 +16,7 @@ const Header = () => {
     }
     setIsMenuOpen(false)
   }
+
 
   return (
     <header className="header">
